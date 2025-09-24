@@ -1,0 +1,27 @@
+# Node.js
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/build/
+
+# Java / Maven
+backend/target/
+backend/.mvn/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.env
+
+# Logs
+*.log
+logs/
+
+# Docker volumes
+mysql_data/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+*.iml
+.vscode/
