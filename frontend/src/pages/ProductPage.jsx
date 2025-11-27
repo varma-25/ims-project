@@ -85,7 +85,7 @@ const ProductPage = () => {
               <div key={product.id} className="product-item">
                 <img
                   className="product-image"
-                  src={product.imageUrl}
+                  src={`/${product.imageUrl}`}
                   alt={product.name}
                 />
 

@@ -34,7 +34,7 @@ public class ProductServiceImpl implements ProductService {
     private static final String IMAGE_DIRECTORY = System.getProperty("user.dir") + "/product-images/";
 
     //AFTER YOUR FRONTEND IS SETUP CHANGE THE IMAGE DIRECTORY TO YHE FRONTEND YOU ARE USING
-    private static final String IMAGE_DIRECTORY_2 = "/Users/dennismac/phegonDev/ims-react/public/products/";
+    private static final String IMAGE_DIRECTORY_2 = "D:/IMS-react/frontend/public/products/";
 
     @Override
     public Response saveProduct(ProductDTO productDTO, MultipartFile imageFile) {
@@ -244,7 +244,7 @@ public class ProductServiceImpl implements ProductService {
         } catch (Exception e) {
             throw new IllegalArgumentException("Error saving Image: " + e.getMessage());
         }
-        return "products/"+uniqueFileName;
+        return "D:/IMS-react/frontend/public/products/"+uniqueFileName;
 
 
     }
